@@ -1,0 +1,31 @@
+psudo code
+exercise.balance_factor ratio of time to spend for each type againest a central recommended routine
+
+calculates an effectivness rating for each type exercise
+exercise.effectivness_weight = ((exercise.time_spent * exercise.balance_factor) / exercise.count) * exercise.pounds_lost
+
+takes a collection of all exercises and makes a routine optimized againest what both loses the most weight and creates a balance of exercise types
+routine.fill(exercisearray)
+
+routine.max = time / 10
+routine::fill()
+{
+	exercisearray.sort(ascend)
+
+	int x
+
+	while(routine.list.count != routine.max)
+	{	
+		routine.list += exercisearray.get(x)
+		x++
+	}
+
+}
+
+as data is collected and different exercise types are done a personalized routine is created to help maximize the activities responsible or atleast associated with
+responsibilities to the most weight loss
+
+///
+
+basic once daily generate new goal completion date
+days_left = pounds_lost.goal / ((days.passed / total.pounds_lost) * .8) 'diminishing return factor

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">hackletics</string>
+    <string name="daily">DAILY</string>
+    <string name="plan">PLAN</string>
+    <string name="progress">PROGRESS</string>
+    <string name="prompt">I did...</string>
+    <string name="progressTest">Summary: In about 300 Days you will meet your weight loss goal of </string>
+
+    <string-array name="exerciseArray">
+        <item>I did...</item>
+        <item>Walking</item>
+        <item>Running</item>
+        <item>Weights</item>
+    </string-array>
+
+    <string-array name="exerciseTime">
+        <item>I will workout for...</item>
+        <item>10 Minutes</item>
+        <item>20 Minutes</item>
+        <item>30 Minutes</item>
+        <item>45 Minutes</item>
+        <item>1 Hour</item>
+        <item>More than an Hour (Oh My!)</item>
+    </string-array>
+</resources>
